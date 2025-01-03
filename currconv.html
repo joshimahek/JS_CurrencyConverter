@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💸CURRENCY CONVERTER💰</title>
+    <link rel="stylesheet" href="curr.css" />
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>💸Currency Converter💸</h1>
+        <form action="">
+          <div class="amount">
+            <p>Enter Amount💱</p>
+            <input type="text" value="1" />
+          </div>
+         <div class="dropdown">
+            <div class="from">
+              <p>FROM</p>
+              <div class="select-container">
+                <img
+                  src="https://flagsapi.com/US/flat/64.png"
+                  alt="Country flag"
+                />
+                <select name="from" id="">  </select>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+              <p>TO</p>
+              <div class="select-container">
+                <img
+                  src="https://flagsapi.com/IN/flat/64.png"
+                  alt="Country flag"
+                />
+                <select name="to" id=""> </select>
+              </div>
+            </div>
+          </div>
+          <div class="msg">1USD=84.83INR</div>
+<div class="res">
+  <button id="xchg">Get Exchange Rates</button>
+</div>
+        </form>
+      </div>
+    </div>
+    <script src="country.js"></script>
+    <script src="curr.js"></script>
+  
+  </body>
+</html>
